@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/photo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Budding CSE Student | Passionate Web Developer, Lifelong Learner | Dr. Ambedkar Institute of Technology, Bangalore. Enthusiastic web developer proficient in HTML, CSS, and JavaScript, dedicated to crafting engaging user experiences. With a keen eye for detail and a passion for innovation, I thrive in collaborative environments where creativity flourishes. Committed to continuous learning and staying abreast of industry trends, I'm eager to contribute my skills to dynamic teams and tackle exciting challenges. Let's connect and embark on a journey of innovation and growth together"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+    </ScrollView>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/photo" />
+</LinearLayout>
